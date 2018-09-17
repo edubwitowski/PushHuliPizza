@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA3E1F8D214F4D7000026684 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3E1F8C214F4D7000026684 /* AppDelegate.swift */; };
+		FA3E1F8F214F4D7000026684 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3E1F8E214F4D7000026684 /* ViewController.swift */; };
+		FA3E1F92214F4D7000026684 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3E1F90214F4D7000026684 /* Main.storyboard */; };
+		FA3E1F94214F4D7200026684 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3E1F93214F4D7200026684 /* Assets.xcassets */; };
+		FA3E1F97214F4D7200026684 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3E1F95214F4D7200026684 /* LaunchScreen.storyboard */; };
+		FA3E1FA2214F4D7200026684 /* PushHuliPizzaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3E1FA1214F4D7200026684 /* PushHuliPizzaTests.swift */; };
+		FA3E1FAD214F4D7200026684 /* PushHuliPizzaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3E1FAC214F4D7200026684 /* PushHuliPizzaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA3E1F9E214F4D7200026684 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA3E1F81214F4D7000026684 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA3E1F88214F4D7000026684;
+			remoteInfo = PushHuliPizza;
+		};
+		FA3E1FA9214F4D7200026684 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA3E1F81214F4D7000026684 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA3E1F88214F4D7000026684;
+			remoteInfo = PushHuliPizza;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA3E1F89214F4D7000026684 /* PushHuliPizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushHuliPizza.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3E1F8C214F4D7000026684 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA3E1F8E214F4D7000026684 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA3E1F91214F4D7000026684 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA3E1F93214F4D7200026684 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA3E1F96214F4D7200026684 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA3E1F98214F4D7200026684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA3E1F9D214F4D7200026684 /* PushHuliPizzaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PushHuliPizzaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3E1FA1214F4D7200026684 /* PushHuliPizzaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushHuliPizzaTests.swift; sourceTree = "<group>"; };
+		FA3E1FA3214F4D7200026684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA3E1FA8214F4D7200026684 /* PushHuliPizzaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PushHuliPizzaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3E1FAC214F4D7200026684 /* PushHuliPizzaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushHuliPizzaUITests.swift; sourceTree = "<group>"; };
+		FA3E1FAE214F4D7200026684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA3E1F86214F4D7000026684 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3E1F9A214F4D7200026684 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3E1FA5214F4D7200026684 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA3E1F80214F4D7000026684 = {
+			isa = PBXGroup;
+			children = (
+				FA3E1F8B214F4D7000026684 /* PushHuliPizza */,
+				FA3E1FA0214F4D7200026684 /* PushHuliPizzaTests */,
+				FA3E1FAB214F4D7200026684 /* PushHuliPizzaUITests */,
+				FA3E1F8A214F4D7000026684 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA3E1F8A214F4D7000026684 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA3E1F89214F4D7000026684 /* PushHuliPizza.app */,
+				FA3E1F9D214F4D7200026684 /* PushHuliPizzaTests.xctest */,
+				FA3E1FA8214F4D7200026684 /* PushHuliPizzaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA3E1F8B214F4D7000026684 /* PushHuliPizza */ = {
+			isa = PBXGroup;
+			children = (
+				FA3E1F8C214F4D7000026684 /* AppDelegate.swift */,
+				FA3E1F8E214F4D7000026684 /* ViewController.swift */,
+				FA3E1F90214F4D7000026684 /* Main.storyboard */,
+				FA3E1F93214F4D7200026684 /* Assets.xcassets */,
+				FA3E1F95214F4D7200026684 /* LaunchScreen.storyboard */,
+				FA3E1F98214F4D7200026684 /* Info.plist */,
+			);
+			path = PushHuliPizza;
+			sourceTree = "<group>";
+		};
+		FA3E1FA0214F4D7200026684 /* PushHuliPizzaTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA3E1FA1214F4D7200026684 /* PushHuliPizzaTests.swift */,
+				FA3E1FA3214F4D7200026684 /* Info.plist */,
+			);
+			path = PushHuliPizzaTests;
+			sourceTree = "<group>";
+		};
+		FA3E1FAB214F4D7200026684 /* PushHuliPizzaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA3E1FAC214F4D7200026684 /* PushHuliPizzaUITests.swift */,
+				FA3E1FAE214F4D7200026684 /* Info.plist */,
+			);
+			path = PushHuliPizzaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA3E1F88214F4D7000026684 /* PushHuliPizza */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA3E1FB1214F4D7200026684 /* Build configuration list for PBXNativeTarget "PushHuliPizza" */;
+			buildPhases = (
+				FA3E1F85214F4D7000026684 /* Sources */,
+				FA3E1F86214F4D7000026684 /* Frameworks */,
+				FA3E1F87214F4D7000026684 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PushHuliPizza;
+			productName = PushHuliPizza;
+			productReference = FA3E1F89214F4D7000026684 /* PushHuliPizza.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA3E1F9C214F4D7200026684 /* PushHuliPizzaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA3E1FB4214F4D7200026684 /* Build configuration list for PBXNativeTarget "PushHuliPizzaTests" */;
+			buildPhases = (
+				FA3E1F99214F4D7200026684 /* Sources */,
+				FA3E1F9A214F4D7200026684 /* Frameworks */,
+				FA3E1F9B214F4D7200026684 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA3E1F9F214F4D7200026684 /* PBXTargetDependency */,
+			);
+			name = PushHuliPizzaTests;
+			productName = PushHuliPizzaTests;
+			productReference = FA3E1F9D214F4D7200026684 /* PushHuliPizzaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA3E1FA7214F4D7200026684 /* PushHuliPizzaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA3E1FB7214F4D7200026684 /* Build configuration list for PBXNativeTarget "PushHuliPizzaUITests" */;
+			buildPhases = (
+				FA3E1FA4214F4D7200026684 /* Sources */,
+				FA3E1FA5214F4D7200026684 /* Frameworks */,
+				FA3E1FA6214F4D7200026684 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA3E1FAA214F4D7200026684 /* PBXTargetDependency */,
+			);
+			name = PushHuliPizzaUITests;
+			productName = PushHuliPizzaUITests;
+			productReference = FA3E1FA8214F4D7200026684 /* PushHuliPizzaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA3E1F81214F4D7000026684 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Eric Witowski";
+				TargetAttributes = {
+					FA3E1F88214F4D7000026684 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					FA3E1F9C214F4D7200026684 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = FA3E1F88214F4D7000026684;
+					};
+					FA3E1FA7214F4D7200026684 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = FA3E1F88214F4D7000026684;
+					};
+				};
+			};
+			buildConfigurationList = FA3E1F84214F4D7000026684 /* Build configuration list for PBXProject "PushHuliPizza" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA3E1F80214F4D7000026684;
+			productRefGroup = FA3E1F8A214F4D7000026684 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA3E1F88214F4D7000026684 /* PushHuliPizza */,
+				FA3E1F9C214F4D7200026684 /* PushHuliPizzaTests */,
+				FA3E1FA7214F4D7200026684 /* PushHuliPizzaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA3E1F87214F4D7000026684 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3E1F97214F4D7200026684 /* LaunchScreen.storyboard in Resources */,
+				FA3E1F94214F4D7200026684 /* Assets.xcassets in Resources */,
+				FA3E1F92214F4D7000026684 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3E1F9B214F4D7200026684 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3E1FA6214F4D7200026684 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA3E1F85214F4D7000026684 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3E1F8F214F4D7000026684 /* ViewController.swift in Sources */,
+				FA3E1F8D214F4D7000026684 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3E1F99214F4D7200026684 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3E1FA2214F4D7200026684 /* PushHuliPizzaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3E1FA4214F4D7200026684 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3E1FAD214F4D7200026684 /* PushHuliPizzaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA3E1F9F214F4D7200026684 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA3E1F88214F4D7000026684 /* PushHuliPizza */;
+			targetProxy = FA3E1F9E214F4D7200026684 /* PBXContainerItemProxy */;
+		};
+		FA3E1FAA214F4D7200026684 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA3E1F88214F4D7000026684 /* PushHuliPizza */;
+			targetProxy = FA3E1FA9214F4D7200026684 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA3E1F90214F4D7000026684 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA3E1F91214F4D7000026684 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA3E1F95214F4D7200026684 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA3E1F96214F4D7200026684 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA3E1FAF214F4D7200026684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA3E1FB0214F4D7200026684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA3E1FB2214F4D7200026684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NX7C2QWX95;
+				INFOPLIST_FILE = PushHuliPizza/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eacwitowski.PushHuliPizza;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA3E1FB3214F4D7200026684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NX7C2QWX95;
+				INFOPLIST_FILE = PushHuliPizza/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eacwitowski.PushHuliPizza;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA3E1FB5214F4D7200026684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NX7C2QWX95;
+				INFOPLIST_FILE = PushHuliPizzaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eacwitowski.PushHuliPizzaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PushHuliPizza.app/PushHuliPizza";
+			};
+			name = Debug;
+		};
+		FA3E1FB6214F4D7200026684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NX7C2QWX95;
+				INFOPLIST_FILE = PushHuliPizzaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eacwitowski.PushHuliPizzaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PushHuliPizza.app/PushHuliPizza";
+			};
+			name = Release;
+		};
+		FA3E1FB8214F4D7200026684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NX7C2QWX95;
+				INFOPLIST_FILE = PushHuliPizzaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eacwitowski.PushHuliPizzaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PushHuliPizza;
+			};
+			name = Debug;
+		};
+		FA3E1FB9214F4D7200026684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NX7C2QWX95;
+				INFOPLIST_FILE = PushHuliPizzaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eacwitowski.PushHuliPizzaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PushHuliPizza;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA3E1F84214F4D7000026684 /* Build configuration list for PBXProject "PushHuliPizza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3E1FAF214F4D7200026684 /* Debug */,
+				FA3E1FB0214F4D7200026684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA3E1FB1214F4D7200026684 /* Build configuration list for PBXNativeTarget "PushHuliPizza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3E1FB2214F4D7200026684 /* Debug */,
+				FA3E1FB3214F4D7200026684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA3E1FB4214F4D7200026684 /* Build configuration list for PBXNativeTarget "PushHuliPizzaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3E1FB5214F4D7200026684 /* Debug */,
+				FA3E1FB6214F4D7200026684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA3E1FB7214F4D7200026684 /* Build configuration list for PBXNativeTarget "PushHuliPizzaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3E1FB8214F4D7200026684 /* Debug */,
+				FA3E1FB9214F4D7200026684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA3E1F81214F4D7000026684 /* Project object */;
+}
