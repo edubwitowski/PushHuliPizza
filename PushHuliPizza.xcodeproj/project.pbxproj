@@ -47,6 +47,7 @@
 		FA3E1FA8214F4D7200026684 /* PushHuliPizzaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PushHuliPizzaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA3E1FAC214F4D7200026684 /* PushHuliPizzaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushHuliPizzaUITests.swift; sourceTree = "<group>"; };
 		FA3E1FAE214F4D7200026684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA3E1FBA214F4DD000026684 /* PushHuliPizza.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PushHuliPizza.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +98,7 @@
 		FA3E1F8B214F4D7000026684 /* PushHuliPizza */ = {
 			isa = PBXGroup;
 			children = (
+				FA3E1FBA214F4DD000026684 /* PushHuliPizza.entitlements */,
 				FA3E1F8C214F4D7000026684 /* AppDelegate.swift */,
 				FA3E1F8E214F4D7000026684 /* ViewController.swift */,
 				FA3E1F90214F4D7000026684 /* Main.storyboard */,
@@ -193,6 +195,14 @@
 				TargetAttributes = {
 					FA3E1F88214F4D7000026684 = {
 						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					FA3E1F9C214F4D7200026684 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -430,6 +440,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PushHuliPizza/PushHuliPizza.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NX7C2QWX95;
 				INFOPLIST_FILE = PushHuliPizza/Info.plist;
@@ -448,6 +459,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PushHuliPizza/PushHuliPizza.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NX7C2QWX95;
 				INFOPLIST_FILE = PushHuliPizza/Info.plist;
